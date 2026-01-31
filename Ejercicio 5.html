@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de contacto</title>
+
+    <!-- Conectar el HTML con el CSS -->
+    <link rel="stylesheet" href="Ejercicio5.css">
+</head>
+
+<body>
+<button onclick="location.href='menu.html'">Home</button>
+    <div class="contenedor">
+        <h1>Formulario de contacto</h1>
+
+        <form>
+            <label>Nombre:</label>
+            <input type="text" placeholder="Tu nombre">
+
+            <label>Dirección:</label>
+            <textarea placeholder="Calle, ciudad, país"></textarea>
+
+            <label>Edad:</label>
+            <input type="number" placeholder="Ej: 20">
+
+            <label>Hora:</label>
+            <input type="time">
+
+            <label>Género:</label>
+            <select>
+                <option>Masculino</option>
+                <option>Femenino</option>
+                <option>Otro</option>
+            </select>
+
+            <label>Correo:</label>
+            <input type="email" placeholder="correo@ejemplo.com">
+
+            <label>
+                <input type="checkbox"> Acepto recibir notificaciones
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
